@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Roboto:wght@300&display=swap');
+
+.body{
+  font-family: 'Mulish', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.loader_bg{
+  position: fixed;
+  z-index: 999999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+.loader{
+  border: 0 soild transparent;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: calc(50vh - 75px);
+  left: calc(50vw - 75px);
+}
+.loader:before, .loader:after{
+  content: '';
+  border: 1em solid  rgb(5, 195, 253);
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: loader 2s linear infinite;
+  opacity: 0;
+}
+.loader:before{
+  animation-delay: .5s;
+}
+@keyframes loader{
+  0%{
+      transform: scale(0);
+      opacity: 0;
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      transform: scale(1);
+      opacity: 0;
+  }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(226, 226, 226); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(5, 195, 253); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(9, 180, 232); 
+}
+
+
+
+.col1{
+
+  box-shadow: inset 0 0 5px rgb(226, 226, 226); 
+   border-radius: 10px;
+}
+
+
+
+.col1:hover{
+
+  box-shadow: inset 0 0 5px #249cff; 
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+b{
+
+  font-family: Mulish;
+}
+
+.col-md ul li{
+
+  
+  font-family: Mulish;
+
+}
+.list-unstyled {
+
+  font-family: Mulish;
+
+}
+samp{
+
+  font-family: Mulish;
+}
+
+
+p{
+
+  font-family: Mulish;
+}
+
+.btn{
+
+  font-family: Mulish;
+}
+.line2{
+
+  width: 100px;
+  height:8px;
+  background-color: #249cff;
+  border-radius: 5px;
+}
+
+
+.box{
+
+    width: 80px;
+    height: 70px;
+    background-color: #f8f9fb;
+
+}
+
+.box1{
+
+  width: 100%;
+  height: 750px;
+  background-color: #f8f9fb;
+
+}
+
+.box2{
+
+  width: 100%;
+  height: 550px;
+  background-color: #f8f9fb ;
+
+}
+
+.box1 img{
+  width: 450px;
+  height: 350px;
+  margin-top: 30px;
+}
+.card{
+
+    width: 300px;
+}
+
+
+body {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+    
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+     
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .content {
+    height: 70vh; }
+  
+  .footer-48201 {
+    padding: 7rem 0;
+    background-color: rgb(5, 195, 253);
+    color: rgb(255, 255, 255); }
+    .footer-48201 .footer-site-logo {
+      font-size:16px;
+      color: #fff; }
+    .footer-48201 .nav-links li {
+      margin-bottom: 10px;
+      
+    }
+      .footer-48201 .nav-links li a {
+        color: rgb(255, 255, 255); }
+        .footer-48201 .nav-links li a:hover {
+          color: rgb(59, 59, 59); }
+    .footer-48201 .btn.btn-tertiary {
+      background-color: #e42c64;
+      color: #fff;
+      border-radius: 30px;
+      border: none;
+      padding: 10px 20px; }
+    .footer-48201 .social li {
+      display: inline-block; }
+      .footer-48201 .social li a {
+        color: gray;
+        padding: 7px; }
+        .footer-48201 .social li a:hover {
+          color: #fff; }
+    .footer-48201 .copyright {
+      border-top: 1px solid #404040; }
+
+
+.navbar-brand img{
+  width: 100px;
+  height: 70px;
+
+    
+
+}
+
+
+
+
+/* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .featurette-heading{
+    font-size: 10px;
+  
+    
+  }
+
+  .whatsapp-icon {
+      margin-top: 5px;
+  }
+
+  .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+  }
+}
+
+.input{
+
+  height: 37px;
+  border-radius: 5px;
+  border: solid 1px #fff;
+}
+
+
+
+
+.navbar-nav .nav-item .nav-link {
+  color: rgb(0, 0, 0);
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: rgb(0, 181, 253);
+}
+
+
+
+.nav-link {
+
+  font-family: Mulish !important;
+
+}
+  .col-md  {
+
+  font-family: Mulish !important;
+
+}
+
